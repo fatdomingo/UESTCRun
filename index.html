@@ -964,16 +964,18 @@
                           }
                           var myDate = new Date();
                           var mytime = new Date().Format("yyyy-MM-dd hh:mm:ss");
+                          <marquee direction="left" behavior="scroll">scroll：
                           document.getElementById("marquee").innerHTML = mytime;
                           document.getElementById("copy").innerHTML = mytime;
                           document.getElementById("node").innerHTML = mytime;
+                          </marquee>
                           // var utf8Name = getQueryVariable("username");
                           // if (utf8Name != false) {
                           //   var bufferContent = new Uint8Array(utf8Name);
                           //   var gbkName = new TextDecoder('gbk').decode(bufferContent);
                           //   document.getElementById("username").innerHTML = gbkName;
                           // }
-                          document.getElementById("usertype").innerHTML = "继教生";
+                          document.getElementById("usertype").innerHTML = "研究生（硕士）";
                           document.getElementById("userPasstext").innerHTML = "授权有效！";
                         </script>
                       </div>
